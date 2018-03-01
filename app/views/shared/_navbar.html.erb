@@ -4,12 +4,15 @@
       <a class="navbar-brand" href="#">Solidarios</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Homeshare</a></li>
-      <li><a href="#">PROGRAMMES IN BXL</a></li>
-      <li><a href="#">ABOUT HOMESHARE</a></li>
-      <li><a href="#">HOMESHARE INTERNATIONAL</a></li>
-      <li><a href="#">PRESS AND MEDIA</a></li>
+      <li class="active"><%=link_to "Homeshare",root_path, class: "navbar-brand"%></li>
+      <li><%=link_to "Programmes in Bxl",programmes_bxl_show_path, class: "navbar-brand"%></li>
+      <li><%=link_to "About Homeshare",about_homeshare_show_path, class: "navbar-brand"%></a></li>
+      <li><%=link_to "Plan Homeshare",plan_homeshare_show_path, class: "navbar-brand"%></a></li>
+      <li><%=link_to "Homeshare International",homeshare_international_show_path, class: "navbar-brand"%></a></li>
+      <li><%=link_to "Press and Media",press_and_media_show_path, class: "navbar-brand"%></a></li>
+      <li><%=link_to "Press and Media",register_and_contact_show_path, class: "navbar-brand"%></a></li>
     </ul>
-    <button class="btn btn-danger navbar-btn">REGISTER AND CONTACT</button>
+    <!-- <button class="btn btn-danger navbar-btn">REGISTER AND CONTACT</button> -->
   </div>
 </nav>
+
