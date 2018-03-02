@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'bxl/show'
+
+  get 'speakers/show'
+
+  get 'programme/show'
+
   get 'plan_homeshare/show'
 
   get 'register_and_contact/show'
