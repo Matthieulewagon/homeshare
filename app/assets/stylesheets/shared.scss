@@ -1,3 +1,20 @@
-// Place all the styles related to the shared controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// .navbar: {
+//   margin-bottom: 0px !important;
+// }
+.navbar-color {
+  background-color: #2da6ef;
+  border-color: #090909;
+  display: block;
+  margin-bottom: 0px !important;
+  }
+
+.navbar-brand {
+  color: white;
+  padding: 20px 23px;
+}
+
+.sticky {
+  position: fixed ;
+  top: 0;
+  width: 100%
+}
