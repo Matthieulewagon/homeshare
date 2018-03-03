@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'welcome/show'
+
   get 'bxl/show'
 
   get 'speakers/show'
