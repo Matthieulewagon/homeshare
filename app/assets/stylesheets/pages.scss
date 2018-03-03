@@ -3,16 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .welcome-img {
-  margin-top:151px;
-  background-image: image-url('homepage_photo.jpg');
+  margin-top:135px;
+  background-image: image-url('homeshare2.jpg');
   background-size: cover;
   height: 580px;
 }
 
-.welcome-title {
-  margin-top: 150px;
-  margin-left: 50px;
-  color: #ffffff;
+.welcome-title-police {
+  margin-top: 80px;
+  font-size: 70px;
+  font-weight: bold;
+  color: #1177ab;
 }
 
 .margin-text {
@@ -28,6 +29,10 @@
       background-color: #ffffff; /* White */
       color: #555555;
   }
+  .bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
