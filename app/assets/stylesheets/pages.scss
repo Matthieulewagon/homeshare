@@ -1,14 +1,34 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.welcome {
 
-  position: absolute;
-  background-image : image-url('homepage_photo.jpg');
-  background-repeat: no-repeat;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-
+.welcome-img {
+  background-image: image-url('homepage_photo.jpg');
+  background-size: cover;
+  height: 580px;
 }
+
+.welcome-title {
+  margin-top: 150px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.margin-text {
+  margin-top: 500px;
+}
+
+.margin {margin-bottom: 45px;}
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+
