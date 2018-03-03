@@ -1,6 +1,10 @@
 // .navbar: {
 //   margin-bottom: 0px !important;
 // }
+
+.navbar-position {
+  margin-top: 25px;
+}
 .navbar-color {
   background-color: #ffffff;
   border-color: #090909;
@@ -8,13 +12,13 @@
   margin-bottom: 0px !important;
   }
 
+.logo-img {
+  background-image: image-url('logo.jpg');
+  background-size: cover;
+  height: 50px;
+}
 .navbar-brand {
   color: #4d98e2;
   padding: 20px 23px;
 }
 
-.sticky {
-  position: fixed ;
-  top: 0;
-  width: 100%
-}
