@@ -1,6 +1,17 @@
 .map-img {
+  margin-top:5px;
+  margin-right: 500px !important;
+  background-image: image-url('map_1toit2age.png') ;
+  height: 635px;
+  width: 1010px;
+  transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+}
+
+.binome_img {
   margin-top:135px;
-  background-image: image-url('map.png');
+  background-image: image-url('homepage_photo.jpg');
   background-size: cover;
   height: 580px;
 }
