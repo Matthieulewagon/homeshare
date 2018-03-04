@@ -1,9 +1,13 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.above-navbar {
+  height: 126px;
+  background-color: #6b7738;
+}
 
 .welcome-img {
-  margin-top:135px;
+  margin-top:0px;
   background-image: image-url('homeshare2.jpg');
   background-size: cover;
   height: 580px;
