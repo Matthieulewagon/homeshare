@@ -6,10 +6,18 @@
   background-image: image-url('facades-grand-place-bruxelles.jpg');
   background-size: cover;
   height: 580px;
+  filter: grayscale(40%)
 }
 .welcome-map-img {
   margin-top:5px;
   background-image: image-url('map.png');
   background-size: cover;
   height: 580px;
+}
+.welcome-title {
+  font-weight: bold;
+  font-size: 80px;
+  color: #ffffff;
+  text-shadow: 4px 4px #1356bb;
+  margin-top: 270px;
 }
