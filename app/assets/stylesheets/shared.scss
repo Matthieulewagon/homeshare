@@ -7,19 +7,28 @@
 }
 .navbar-color {
   background-color: #ffffff;
-  border-color: #090909;
+  border-color: #090909 !important;
   display: block;
   margin-bottom: 0px !important;
+  border-radius: 5px 5px 5px 5px !important;
   }
 
 .logo-img {
   background-image: image-url('logo.jpg');
   background-size: cover;
   height: 50px;
+  margin-left: 5px !important;
 }
 .navbar-brand {
-  color: #4d98e2;
+  // color: #6f7d37;
+  color: #77863a;
   padding: 20px 23px;
+  font-size: 15px !important;
+}
+
+.navbar-brand-phone {
+  padding: 10px 13px !important;
+  font-size: 10px !important;
 }
 
 // .footer {
