@@ -2,5 +2,6 @@
   margin-top:135px;
   background-image: image-url('flag.jpg');
   background-size: cover;
-  height: 580px;
+  min-height: 580px;
+  max-height: 789px;
 }

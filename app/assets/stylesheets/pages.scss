@@ -10,12 +10,13 @@
   margin-top:0px;
   background-image: image-url('homeshare2.jpg');
   background-size: cover;
-  height: 580px;
+  min-height: 580px;
+  max-height: 789px;
 }
 
 .welcome-title-police {
-  margin-top: -40px;
-  margin-left: 525px;
+  margin-top: -4%;
+  margin-left: 43%;
   font-size: 55px;
   font-weight: bold;
   color: #ffffff;
@@ -24,8 +25,8 @@
 }
 
 .welcome-title-police-fr {
-  margin-top: -85px;
-  margin-left: 525px;
+  margin-top: -7%;
+  margin-left: 43%;
   font-size: 55px;
   font-weight: bold;
   color: #ffffff;

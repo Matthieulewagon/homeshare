@@ -8,5 +8,6 @@
   margin-top:0px;
   background-image: image-url('mains.jpg');
   background-size: cover;
-  height: 580px;
+  min-height: 580px;
+  max-height: 789px;
 }
