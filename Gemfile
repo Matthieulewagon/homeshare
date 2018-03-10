@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'postmark-rails'
+gem "letter_opener", group: :development
 gem 'devise'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.2.0'
