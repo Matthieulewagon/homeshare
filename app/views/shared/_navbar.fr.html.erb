@@ -20,13 +20,21 @@
 <!-- phone part -->
 <nav class="navbar visible-xs navbar-position navbar-color navbar-fixed-top">
 <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Damn
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JavaScript</a></li>
-    <li><%=link_to "Intervenants",speakers_show_path, class: "navbar-brand"%></a></li>
-  </ul>
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+
+      <span><li class="active"><%=link_to "Homeshare",root_path, class: "navbar-brand-phone"%></li>
+      <li><%=link_to "Bienvenue à Bruxelles",welcome_show_path, class: "navbar-brand-phone"%></a></li></span>
+      <li><%=link_to "1toit2ages en Belgique",programmes_bxl_show_path, class: "navbar-brand-phone"%></li>
+      <li><%=link_to "Logement Intergénérationnel",about_homeshare_show_path, class: "navbar-brand-phone"%></a></li>
+      <li><%=link_to "Homeshare International",homeshare_international_show_path, class: "navbar-brand-phone"%></a></li>
+      <li><%=link_to "Presse",press_and_media_show_path, class: "navbar-brand-phone"%></a></li>
+      <li><%= link_to "Français", :locale=>'fr',class: "navbar-brand-phone"%></li>
+      <li><%= link_to "English", :locale=>'en',class: "navbar-brand-phone"%></li>
+      <li><%=link_to "Contact et Inscription",new_user_registration_path, class: "navbar-brand-phone"%></a></li>
+      <li><%=link_to "Programme",programme_show_path, class: "navbar-brand-phone"%></a></li>
+      <li><%=link_to "Intervenants",speakers_show_path, class: "navbar-brand-phone"%></a></li>
+
+  </div>
 </div>
 </nav>
