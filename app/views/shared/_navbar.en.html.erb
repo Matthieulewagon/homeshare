@@ -2,15 +2,6 @@
   <ul class="nav navbar-nav">
     <a class="navbar-brand navbar-height logo-img white" href="#"></a>
     <a class="navbar-brand navbar-height2 logo2-img white" href="#"></a>
-    <% if user_signed_in? %>
-    <li>
-      <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
-    </li>
-    <% else %>
-    <li>
-      <%= link_to('Login', new_user_session_path)  %>
-    </li>
-    <% end %>
     <li><%=link_to "Press and Media",press_and_media_show_path, class: "navbar-brand"%></a></li>
     <li><%=link_to "Homeshare International",homeshare_international_show_path, class: "navbar-brand"%></a></li>
     <li><%=link_to "About Homeshare",about_homeshare_show_path, class: "navbar-brand"%></a></li>
@@ -21,6 +12,15 @@
     <li><%=link_to "Register and Contact",new_user_registration_path, class: "navbar-brand navbar-margin-right"%></a></li>
     <li><%=link_to "Programme",programme_show_path, class: "navbar-brand"%></a></li>
     <li><%=link_to "Speakers",speakers_show_path, class: "navbar-brand"%></a></li>
+    <% if user_signed_in? %>
+    <li>
+      <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+    </li>
+    <% else %>
+    <li>
+      <%= link_to('Login', new_user_session_path)  %>
+    </li>
+    <% end %>
   </ul>
   <!-- <button class="btn btn-danger navbar-btn">REGISTER AND CONTACT</button> -->
 </nav>
