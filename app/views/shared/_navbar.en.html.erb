@@ -1,15 +1,7 @@
 <nav class="navbar hidden-xs navbar-position navbar-color navbar-fixed-top">
-
   <ul class="nav navbar-nav">
-    <li %><a class="navbar-brand logo-img" href="#">............</a></li>
-    <li class="active"><%=link_to "Homeshare",root_path, class: "navbar-brand"%></li>
-    <li><%=link_to "Welcome to Brussels",welcome_show_path, class: "navbar-brand"%></a></li>
-    <li><%=link_to "1toit2ages in Belgium",programmes_bxl_show_path, class: "navbar-brand"%></li>
-    <li><%=link_to "About Homeshare",about_homeshare_show_path, class: "navbar-brand"%></a></li>
-    <li><%=link_to "Homeshare International",homeshare_international_show_path, class: "navbar-brand"%></a></li>
-    <li><%=link_to "Press and Media",press_and_media_show_path, class: "navbar-brand"%></a></li>
-    <li><%= link_to "Français", :locale=>'fr'%></li>
-    <li><%= link_to "English", :locale=>'en'%></li>
+    <a class="navbar-brand navbar-height logo-img white" href="#">............</a>
+    <a class="navbar-brand navbar-height2 logo2-img white" href="#">............</a>
     <% if user_signed_in? %>
     <li>
       <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
@@ -19,12 +11,18 @@
       <%= link_to('Login', new_user_session_path)  %>
     </li>
     <% end %>
-    <li><%=link_to "Register and Contact",new_user_registration_path, class: "navbar-brand"%></a></li>
+    <li><%=link_to "Press and Media",press_and_media_show_path, class: "navbar-brand"%></a></li>
+    <li><%=link_to "Homeshare International",homeshare_international_show_path, class: "navbar-brand"%></a></li>
+    <li><%=link_to "About Homeshare",about_homeshare_show_path, class: "navbar-brand"%></a></li>
+    <li><%=link_to "1toit2ages in Belgium",programmes_bxl_show_path, class: "navbar-brand"%></li>
+    <li><%=link_to "Welcome to Brussels",welcome_show_path, class: "navbar-brand"%></a></li>
+    <li class="active"><%=link_to "Homeshare",root_path, class: "navbar-brand"%></li>
+
+    <li><%=link_to "Register and Contact",new_user_registration_path, class: "navbar-brand navbar-margin-right"%></a></li>
     <li><%=link_to "Programme",programme_show_path, class: "navbar-brand"%></a></li>
     <li><%=link_to "Speakers",speakers_show_path, class: "navbar-brand"%></a></li>
   </ul>
   <!-- <button class="btn btn-danger navbar-btn">REGISTER AND CONTACT</button> -->
-</div>
 </nav>
 
 <!-- phone part -->
@@ -48,4 +46,3 @@
   </div>
 </div>
 </nav>
-
