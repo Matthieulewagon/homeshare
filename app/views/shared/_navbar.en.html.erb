@@ -27,11 +27,13 @@
 
 <!-- phone part -->
 <nav class="navbar visible-xs navbar-position navbar-color navbar-fixed-top">
+  <a class="navbar-brand navbar-height-phone logo-img-phone " href="#"></a>
+  <a class="navbar-brand navbar-height2-phone logo2-img-phone" href="#"></a>
 <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
 
-      <span><li class="active"><%=link_to "Homeshare",root_path, class: "navbar-brand-phone"%></li>
+      <li class="active"><%=link_to "Homeshare",root_path, class: "navbar-brand-phone"%></li>
       <li><%=link_to "Welcome to Brussels",welcome_show_path, class: "navbar-brand-phone"%></a></li></span>
       <li><%=link_to "1toit2ages in Belgium",programmes_bxl_show_path, class: "navbar-brand-phone"%></li>
       <li><%=link_to "About Homeshare",about_homeshare_show_path, class: "navbar-brand-phone"%></a></li>

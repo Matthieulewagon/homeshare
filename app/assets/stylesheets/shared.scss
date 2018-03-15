@@ -17,6 +17,16 @@
   width: 162px !important;
 }
 
+.navbar-height-phone {
+  height: 50px !important;
+  width: 46px !important;
+}
+
+.navbar-height2-phone {
+  height: 50px !important;
+  width: 84px !important;
+}
+
 .navbar-color {
   background-color: #ffffff;
   border-color: #090909 !important;
@@ -41,6 +51,25 @@
   margin-left: 2.1% !important;
   margin-bottom: 2px;
   margin-top: 2px;
+}
+
+.logo-img-phone {
+  background-image: image-url('1toit2ages_logo.jpg');
+  background-size: cover;
+  height: 10%;
+  width: 5%;
+  margin-left: 5px !important;
+}
+
+.logo2-img-phone {
+  background-image: image-url('logo2.jpg');
+  background-size: cover;
+  height: 10%;
+  width: 5%;
+  margin-left: 2.1% !important;
+  // margin-right: 2.1%;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 .navbar-brand {
   // color: #6f7d37;
