@@ -20,7 +20,6 @@ test:
 production:
   adapter: postgresql
   database: my_database_production
-  host: heroku
   pool: 5
   timeout: 5000
 
